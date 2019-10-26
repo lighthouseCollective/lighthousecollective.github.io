@@ -10,8 +10,7 @@
 Here at the Lighthouse Collective, we try to shine a little light on the true identity of your business. 
 
 When you team up with us, we consider it our personal responsibility to help you navigate the turbulent waters of small-business success.
-We are highly motivated digital marketing, software development, and cybersecurity professionals. Along with a focus on SEO, we make sure
-to protect data and PII, or personally identifiable information.
+We are highly motivated digital marketing, software development, and cybersecurity professionals. Along with a focus on SEO, we make sure to protect data and PII, or personally identifiable information.
 
 Visit our [LinkedIn](https://www.linkedin.com/company/lighthousecollective/).
 
@@ -26,6 +25,10 @@ ___
 
 #### New England Family First Life Insurance
 
+[NEFFLI Website](http://www.newenglandffl.com)
+
+[NEFFLI Repository](https://github.com/lighthouseCollective/neffliWebsite)
+
     Based in Maine, NEFFLI was looking for a new way to generate leads and establish legitamcy in their geosphere. 
     As the company expands, the html can be easily updated to add service areas, as well as employee bios. The
     success of SEO efforts will be monitored using a UID provided by Google Analytics. Lead generation will also 
@@ -35,10 +38,6 @@ ___
     increase traffic and web presence. The 7 reroute domains will only have one task - *to refresh as the primary url*. 
     If analytics indicates that one of these subdomains is generating more traffic than the primary domain (not including 
     the rerouted traffic), then the primary domain will be changed in accordance. 
-
-    [NEFFLI Website](http://www.newenglandffl.com)
-
-    [NEFFLI Repository](https://github.com/lighthouseCollective/neffliWebsite)
 
     Task List: 
     - [x] initial structure and layout
@@ -71,7 +70,7 @@ If you want to get to know us a little better, follow the links below.
 
 [personalWebsite](https://dylantodd.github.io/)        |         [linkedIn](https://www.linkedin.com/in/dylan-todd/) 
 
-[gitHub](https://github.com/dylantodd)
+[gitHub](https://github.com/dylantodd)                 |
 
 **Cody Fagley**
 
@@ -83,4 +82,4 @@ ___
 
 ### Contact Us
 
-Shoot us an [email](dylan.lighthousecollective@gmail.com)
+*Shoot us an email at* [dylan.lighthousecollective@gmail.com](dylan.lighthousecollective@gmail.com)
