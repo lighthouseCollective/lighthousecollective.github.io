@@ -69,13 +69,15 @@ If you want to get to know us a little better, follow the links below.
 
 **Dylan Todd**
 
-Visit my [personalWebsite](https://dylantodd.github.io/) [linkedIn](https://www.linkedin.com/in/dylan-todd/) [gitHub](https://github.com/dylantodd)
+[personalWebsite](https://dylantodd.github.io/)                 [linkedIn](https://www.linkedin.com/in/dylan-todd/) 
+
+[gitHub](https://github.com/dylantodd)
 
 **Cody Fagley**
 
-Visit my [personalWebsite](https://codyfagley.github.io/) [linkedIn](https://www.linkedin.com/in/cody-fagley/)
+[personalWebsite](https://codyfagley.github.io/)                [linkedIn](https://www.linkedin.com/in/cody-fagley/)
 
-[gitHub](https://github.com/CodyFagley) [researchGate](https://www.researchgate.net/profile/Cody_Fagley)
+[gitHub](https://github.com/CodyFagley)                         [researchGate](https://www.researchgate.net/profile/Cody_Fagley)
 
 ___
 
