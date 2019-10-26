@@ -2,6 +2,9 @@
 ## Digital Marketing and Business Development
 ##### Powered by GitHub
 
+<img src="/img/lighthouse01.jpg" alt="profilePhoto"
+        title="Picture of me" width="150" height="150" />
+
 ### What We Do
 
 Here at the Lighthouse Collective, we try to shine a little light on the true identity of your business. 
@@ -9,11 +12,6 @@ Here at the Lighthouse Collective, we try to shine a little light on the true id
 When you team up with us, we consider it our personal responsibility to help you navigate the turbulent waters of small-business success.
 We are highly motivated digital marketing, software development, and cybersecurity professionals. Along with a focus on SEO, we make sure
 to protect data and PII, or personally identifiable information.
-
-<!--
-<img src="/images/profilephoto.jpg" alt="profilePhoto"
-        title="Picture of me" width="150" height="150" />
--->
 
 Visit our [LinkedIn](https://www.linkedin.com/company/lighthousecollective/).
 
@@ -28,13 +26,15 @@ ___
 
 #### New England Family First Life Insurance
 
-    Based in Maine, NEFFLI was looking for a new way to generate leads and establish legitamcy in their geosphere. As the company expands,
-    the html can be easily updated to add service areas, as well as employee bios. The success of SEO efforts will be monitored using a UID
-    provided by Google Analytics. Lead generation will also be monitored. 
+    Based in Maine, NEFFLI was looking for a new way to generate leads and establish legitamcy in their geosphere. 
+    As the company expands, the html can be easily updated to add service areas, as well as employee bios. The
+    success of SEO efforts will be monitored using a UID provided by Google Analytics. Lead generation will also 
+    be monitored. 
 
-    One strategy of SEO that we utilized here was a direct purchase of 7 domains other than the primary domain, to increase traffic and web
-    presence. The 7 reroute domains will only have one task - *to refresh as the primary url*. If analytics indicates that one of these subdomains
-    is generating more traffic than the primary domain (not including the rerouted traffic), then the primary domain will be changed in accordance. 
+    One strategy of SEO that we utilized here was a direct purchase of 7 domains other than the primary domain, to 
+    increase traffic and web presence. The 7 reroute domains will only have one task - *to refresh as the primary url*. 
+    If analytics indicates that one of these subdomains is generating more traffic than the primary domain (not including 
+    the rerouted traffic), then the primary domain will be changed in accordance. 
 
     [NEFFLI Website](http://www.newenglandffl.com)
 
@@ -69,24 +69,15 @@ If you want to get to know us a little better, follow the links below.
 
 **Dylan Todd**
 
-Visit my [personalWebsite](https://dylantodd.github.io/)
-
-Visit my [linkedIn](https://www.linkedin.com/in/dylan-todd/)
-
-Visit my [gitHub](https://github.com/dylantodd)
-
+Visit my [personalWebsite](https://dylantodd.github.io/) [linkedIn](https://www.linkedin.com/in/dylan-todd/) [gitHub](https://github.com/dylantodd)
 
 **Cody Fagley**
 
-Visit my [personalWebsite](https://codyfagley.github.io/)
+Visit my [personalWebsite](https://codyfagley.github.io/) [linkedIn](https://www.linkedin.com/in/cody-fagley/)
 
-Visit my [linkedIn](https://www.linkedin.com/in/cody-fagley/)
+[gitHub](https://github.com/CodyFagley) [researchGate](https://www.researchgate.net/profile/Cody_Fagley)
 
-Visit my [gitHub](https://github.com/CodyFagley)
-
-Visit my [researchGate](https://www.researchgate.net/profile/Cody_Fagley)
 ___
-
 
 ### Contact Us
 
