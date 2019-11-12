@@ -94,4 +94,4 @@ ___
 
 [dylan.lighthousecollective@gmail.com](dylan.lighthousecollective@gmail.com)
 
-[elijah.lighthousecollective@gmail.com]](elijah.lighthousecollective@gmail.com)
+[elijah.lighthousecollective@gmail.com](elijah.lighthousecollective@gmail.com)
