@@ -44,11 +44,11 @@ ___
     - [x] 'aboutUs' framework and primary components
     - [ ] finishing touches on 'aboutUs'
     - [x] 'geosphere' framework and primary components
-    - [ ] finishing touches on 'geosphere'
+    - [x] finishing touches on 'geosphere'
     - [x] 'services' framework and primary components
-    - [ ] finishing touches on 'services'
+    - [x] finishing touches on 'services'
     - [x] 'carriers' framework and primary components
-    - [ ] finishing touches on 'carriers'
+    - [x] finishing touches on 'carriers'
     - [x] 'signUp' framework and primary components
     - [ ] finishing touches on 'signUp'
     - [x] 'contact' framework and primary components
@@ -59,7 +59,7 @@ ___
       - [x] linkedIn
       - [ ] youTube
     - [x] style website to customer specifications
-    - [ ] program full 'request a quote' button functionality to generate leads
+    - [x] program full 'request a quote' button functionality to generate leads
 ___
 
 ### Who We Are
@@ -78,8 +78,20 @@ If you want to get to know us a little better, follow the links below.
 
 [gitHub](https://github.com/CodyFagley)                |         [researchGate](https://www.researchgate.net/profile/Cody_Fagley)
 
+**Elijah Cevallos**
+
+[github](https://github.com/Meta-man2)                 |         [linkedIn](https://www.linkedin.com/in/elijahcevallos/)
+
+**Zachary Flynn**
+
+[linkedIn](https://www.linkedin.com/in/flynnzachary/)  |
+
 ___
 
 ### Contact Us
 
-*Shoot us an email at* [dylan.lighthousecollective@gmail.com](dylan.lighthousecollective@gmail.com)
+*Shoot us an email at* 
+
+[dylan.lighthousecollective@gmail.com](dylan.lighthousecollective@gmail.com)
+
+[elijah.lighthousecollective@gmail.com]](elijah.lighthousecollective@gmail.com)
