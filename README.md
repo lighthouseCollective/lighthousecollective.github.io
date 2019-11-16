@@ -62,36 +62,8 @@ ___
     - [x] program full 'request a quote' button functionality to generate leads
 ___
 
-### Who We Are
-
-If you want to get to know us a little better, follow the links below.
-
-**Dylan Todd**
-
-[personalWebsite](https://dylantodd.github.io/)        |         [linkedIn](https://www.linkedin.com/in/dylan-todd/) 
-
-[gitHub](https://github.com/dylantodd)                 |
-
-**Cody Fagley**
-
-[personalWebsite](https://codyfagley.github.io/)       |         [linkedIn](https://www.linkedin.com/in/cody-fagley/)
-
-[gitHub](https://github.com/CodyFagley)                |         [researchGate](https://www.researchgate.net/profile/Cody_Fagley)
-
-**Elijah Cevallos**
-
-[github](https://github.com/Meta-man2)                 |         [linkedIn](https://www.linkedin.com/in/elijahcevallos/)
-
-**Zachary Flynn**
-
-[linkedIn](https://www.linkedin.com/in/flynnzachary/)  |
-
-___
-
 ### Contact Us
 
 *Shoot us an email at* 
 
 [dylan.lighthousecollective@gmail.com](dylan.lighthousecollective@gmail.com)
-
-[elijah.lighthousecollective@gmail.com](elijah.lighthousecollective@gmail.com)
