@@ -2,7 +2,7 @@
 ## Digital Marketing and Business Development
 ##### Powered by GitHub
 
-<img src="/img/lighthouse01.jpg" alt="profilePhoto"
+<img src="/img/blackOnWhiteCenterEdit.png" alt="profilePhoto"
         title="Picture of me" width="150" height="150" />
 
 ### What We Do
