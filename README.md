@@ -1,5 +1,5 @@
 # The Lighthouse Collective
-## Digital Marketing and Business Development
+## Marketing and Brand Development
 ##### Powered by GitHub
 
 <img src="/img/blackOnWhiteCenterEdit.png" alt="profilePhoto"
@@ -7,18 +7,19 @@
 
 ### What We Do
 
-Here at the Lighthouse Collective, we try to shine a little light on the true identity of your business. 
+Here at the Lighthouse Collective, we shine a little light on the true identity of your business. 
 
-When you team up with us, we consider it our personal responsibility to help you navigate the turbulent waters of small-business success.
-We are highly motivated digital marketing, software development, and cybersecurity professionals. Along with a focus on SEO, we make sure to protect data and PII, or personally identifiable information.
+When you hire us, it becomes our personal responsibility to help you navigate the turbulent waters of small-business success.
+We are a group of highly motivated marketers, designers and business strategists that can aid in defining, and communicating with, your ideal customer. We focus on cornering your share of the market, personifying your mission statement to make it communicable to your customers, optimizing your placement in search engine results (SEO), building up your brand and establishing a strong web presence through the use of automation and omnipresence.
 
-Visit our [LinkedIn](https://www.linkedin.com/company/lighthousecollective/).
+If you want to know more, 
+Check us out on [LinkedIn](https://www.linkedin.com/company/lighthousecollective/).
 
-Visit our [Github](https://github.com/lighthouseCollective)
+Or visit our [Github](https://github.com/lighthouseCollective)
 
 ___ 
 
-**Check out some examples of our work!**
+**Here are some examples of our work!**
 
 ### Web Design
 ___
