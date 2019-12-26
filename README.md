@@ -17,7 +17,7 @@ Check us out on [LinkedIn](https://www.linkedin.com/company/lighthousecollective
 
 Or visit our [Github](https://github.com/lighthouseCollective).
 
-If you want to see a more complete display of our growing portfolio, head on over to [Instagram](https://www.instagram.com/ligh7house_collec7ive/) by clicking the link or by snapping a photo of the image below with your Instagram camera.
+If you want to see a more complete display of our growing portfolio, head on over to our [Instagram](https://www.instagram.com/ligh7house_collec7ive/) by clicking the link or by snapping a photo of the image below with your Instagram camera.
 
 <img src="/img/ligh7house_collec7ive.png" alt="instagramTag"
         title="Instagram Social Tag" width="150" height="150" />
