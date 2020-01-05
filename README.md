@@ -7,10 +7,10 @@
 
 ### What We Do
 
-Here at the Lighthouse Collective, we shine a little light on the true identity of your business. 
+Here at the Lighthouse Collective, we advise brands, retailers and accelerators on marketing, technology strategy and consumer behavior. 
 
 When you hire us, it becomes our personal responsibility to help you navigate the turbulent waters of small-business success.
-We are a group of highly motivated marketers, designers and business strategists that can aid in defining, and communicating with, your ideal customer. We focus on cornering your share of the market, personifying your mission statement to make it communicable to your customers, optimizing your placement in search engine results (SEO), building up your brand and establishing a strong web presence through the use of automation and omnipresence.
+We are a group of highly motivated marketers, designers and business strategists that can aid in defining, and communicating with, your ideal customer. We focus on cornering your share of the market, personifying your mission statement to make it communicable to your customers, optimizing your placement in search engine results (SEO), building up your brand and establishing a strong web presence.
 
 If you want to know a little more, 
 Check us out on [LinkedIn](https://www.linkedin.com/company/lighthousecollective/).
