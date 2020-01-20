@@ -23,7 +23,7 @@ If you want to see a more detailed display of our growing portfolio, head on ove
         title="Instagram Social Tag" width="150" height="150" />
         
         
-**Give us a ring!       307.223.1232** 
+**Give us a ring!       307.223.2060** 
 
 ___ 
 ***Here are a some of our recent projects :***
