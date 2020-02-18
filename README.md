@@ -1,9 +1,7 @@
-# The Lighthouse Collective
-## Marketing and Brand Development
-##### Powered by GitHub
-
+# The Lighthouse Collective                                             
 <img src="/img/simpleLighthouseWithinGeometry.png" alt="profilePhoto"
         title="Picture of me" width="150" height="150" />
+## Business Strategy and Development
 
 ### What We Do
 
