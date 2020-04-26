@@ -23,7 +23,9 @@ If you want to see a more detailed display of our growing portfolio, head on ove
 **Give us a ring!       307.223.2060** 
 
 ___ 
+
 ***Here are a some of our recent projects :***
+
 ___
 
 ### Web Design
