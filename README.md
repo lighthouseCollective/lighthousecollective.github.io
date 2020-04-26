@@ -24,8 +24,7 @@ If you want to see a more detailed display of our growing portfolio, head on ove
 
 ___ 
 
-***Here are a some of our recent projects :***
-
+###### Here are a some of our recent projects :
 ___
 
 ### Web Design
