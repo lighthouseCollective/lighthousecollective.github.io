@@ -9,7 +9,7 @@ Here at the Lighthouse Collective, we advise brands, retailers and accelerators 
 
 When you hire us, it becomes our personal responsibility to help you navigate the turbulent waters of small-business success.
 
-We are a group of highly motivated marketers, designers and business strategists that can aid in defining, and communicating with, your ideal customer. We focus on cornering your share of the market, personifying your mission statement to make it communicable to your customers, optimizing your placement in search engine results (SEO), building up your brand and establishing a strong web presence.
+We are a group of highly motivated marketers, designers and business strategists that can help define and connect your business to the ideal customer. We focus on cornering your share of the market, personifying your mission statement to make relatable, optimizing your placement in search engine results and building your brand graphically.
 
 If you want to know a little more, 
 Check us out on [LinkedIn](https://www.linkedin.com/company/lighthousecollective/).
