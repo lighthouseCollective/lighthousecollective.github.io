@@ -2,7 +2,7 @@
 <!--
 index.html
 Created 06.15.20
-Updated 06.28.20
+Updated 06.30.20
 Dylan Todd
 The Lighthouse Collective
 -->
@@ -93,9 +93,11 @@ The Lighthouse Collective
                 <div class="navbar-header">
 
                     <!-- Menu Button show Mobile view -->
+                    <!--
                     <button type="button" class="nav-trigger nav-trigger-animate"  data-target="#js-navbar-menu">
                         <span aria-hidden="true" class="icon"></span>
                     </button>
+                    -->
 
                     <!-- TEMPLATE LOGO LIGHT -->
                     <a class="navbar-brand light-logo btn-scroll" href="#home-section"><img src="images/logo.png" alt="" class="img-responsive"></a>
@@ -103,15 +105,17 @@ The Lighthouse Collective
                 </div>
                 
                 <!-- Main Menu List -->
+                <!--
                 <div class="navbar-collapse" id="js-navbar-menu">
                     <ul class="nav navbar-nav navbar-right" id="navbar-nav">
                         <li><a class="btn-nav" href="#services-section">About</a></li>
                         <li><a class="btn-nav" href="#portfolio-section">Portfolio</a></li>
                         <li><a class="btn-nav" href="#testimonial-section">Testimonials</a></li>
-                  <!--  <li><a class="btn-nav" href="#team-section">Our Team</a></li>  --> 
-                        <li><a class="btn-nav" href="#contact-us-section">Contact Us</a></li>
+                  <!--  <li><a class="btn-nav" href="#team-section">Our Team</a></li>  --
+                        <li><a class="btn-nav btn-mask" href="#contact-us-section">Contact Us</a></li>
                     </ul>
                 </div>
+                -->
 
 
                 <!-- Right Side Navigation Button -->
@@ -159,13 +163,14 @@ The Lighthouse Collective
                                         </div>
                                     </div> 
                                 </div>
-
+                                
                                 <div class="overflow m-t-30">
                                     <div class="list-view">
                                         <ul class="nav">
-                                            <li><a class="btn-mask" href="#services-2">BRANDING</a></li>
-                                            <li><a class="btn-mask" href="#services-1">STRATEGY</a></li>
-                                            <li><a class="btn-mask" href="#services-3">DESIGN</a></li>
+                                            <li><a class="" href="#services-2">BRANDING</a></li>
+                                            <li><a class="" href="#services-1">STRATEGY</a></li>
+                                            <li><a class="" href="#services-3">DESIGN</a></li>
+                                            <!-- class="btn-mask" -->
                                         </ul>
                                     </div>
                                 </div>
@@ -728,7 +733,7 @@ The Lighthouse Collective
 
                                                             <div class="overflow">
                                                                 <div class="pera-outer m-t-30">
-                                                                    <p>Logo's are the primary visual representation of your business. Customers will come to recognize the entirety of your company by your logo, so it's important to get it right. </p>
+                                                                    <p>Logos are the primary visual representation of your business. Customers will come to recognize the entirety of your company by your logo, so it's important to get it right. </p>
                                                                     
                                                                     <p>Because of this, we take our time designing memorable and enticing logos. A fitting logo grabs attention, makes a strong first impression, is the foundation of your brand identity, separates you from competition and fosters brand loyalty. </p>
                                                                 </div>
@@ -1477,12 +1482,6 @@ The Lighthouse Collective
                                                             <div class="li-inner wow">
                                                                 Jelm, WY 82063
                                                             </div>
-                                                        </li>
-                                                        <li class="overflow">
-                                                            <div class="li-inner wow">
-                                                                <a href="callto:3072232060" class="btn-mask">307 223 2060</a>
-                                                            </div>
-                                                        </li>
                                                     </ul>
 
                                                 </div>
@@ -1522,7 +1521,7 @@ The Lighthouse Collective
                                                 <div class="each-section-inner">
                                                     
                                                     <div class="overflow">
-                                                        <p class="title wow">Email Our Team</p>
+                                                        <p class="title wow">reach out to our team</p>
                                                     </div>
                                                     <ul class="nav">
                                                         <li class="overflow">
@@ -1530,6 +1529,13 @@ The Lighthouse Collective
                                                                 <a href="mailto:keeper.lighthousecollective@gmail.com" class="btn-mask">keeper.lighthousecollective@gmail.com</a>
                                                             </div>
                                                         </li>
+
+                                                        <li class="overflow">
+                                                            <div class="li-inner wow">
+                                                                <a href="callto:3072232060" class="btn-mask">307.223.2060</a>
+                                                            </div>
+                                                        </li>
+
                                                         <li class="overflow">
                                                             <div class="li-inner wow">
                                                                 <ul class="nav social-icon">
@@ -1584,7 +1590,16 @@ The Lighthouse Collective
         ==========================================-->
         <script src="js/custom-scripts.js"></script>
 
+        <!-- GOOGLE ANALYTICS -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151168743-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'UA-151168743-2');
+        </script>
 
     </body>
 

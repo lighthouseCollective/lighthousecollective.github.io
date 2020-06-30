@@ -240,7 +240,7 @@
 
     /**
      * =============================================
-     * Main Navigarion Button Script
+     * Main Navigation Button Script
      * =============================================
      */
     $('.nav-trigger').on('click', function() {
