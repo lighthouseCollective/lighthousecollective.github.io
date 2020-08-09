@@ -17,7 +17,7 @@ if( isset($name) && isset($email) ) {
 
 	// Email will be sent
 	$to = "dylan.lighthousecollective@gmail.com"; // Change with your email address
-	$sub = "$subject from business landing"; // You can define email subject
+	$sub = "$subject More Info"; // You can define email subject
 	// HTML Elements for Email Body
 	$body = <<<EOD
 	<strong>Name:</strong> $name <br>
