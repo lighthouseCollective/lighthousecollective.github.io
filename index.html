@@ -2,7 +2,7 @@
 <!--
 index.html
 Created 06.15.20
-Updated 06.30.20
+Updated 11.21.20
 Dylan Todd
 The Lighthouse Collective
 -->
@@ -1369,15 +1369,21 @@ The Lighthouse Collective
 
                             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 overflow">
                                 <div class="row single-form-outer wow">
-                                    
-                                    <form id="contact-form" method="post" class="dark-background single-form" action="php/sendmail.php">
 
+                                    <form id="contact-form" method="post" class="dark-background single-form" action="https://formspree.io/f/mzbkvnpq">
+
+                                        <script>
+                                            function myFunction() {
+                                              alert("Success!");
+                                            }
+                                        </script>
+<!--
                                         <div class="message col-xs-12">
                                             <p class="email-loading"><img src="images/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Sending...</p>
                                             <p class="email-success"><i class="icon icon-icon-check-alt2"></i> Your message sent successfully.</p>
                                             <p class="email-failed"><i class="icon icon-icon-close-alt2"></i> Oops, something went wrong!</p>
                                         </div>
-
+-->
                                         
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer">
@@ -1437,7 +1443,7 @@ The Lighthouse Collective
                                         <!-- Subject Button -->
                                         <div class="btn-form text-center col-xs-12">
                                             <div class="button-outer relative">
-                                                <button class="btn btn-fill right-icon">SEND<i class="icon icon-arrow-right"></i></button>
+                                                <button class="btn btn-fill right-icon" onclick="myFunction()">SEND<i class="icon icon-arrow-right"></i></button>
                                             </div>
                                         </div>
                                     </form>
