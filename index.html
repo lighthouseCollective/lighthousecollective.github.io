@@ -54,6 +54,8 @@ The Lighthouse Collective
             <script src="js/plagin-js/respond.min.js"></script>
         <![endif]-->
 
+        <!--GOOGLE RECAPTCHA-->
+        <script src="https://www.google.com/recaptcha/api.js"></script>
 
     </head>
     <body class="style-1">
@@ -1520,15 +1522,6 @@ The Lighthouse Collective
                                     <form id="contact-form" method="post" class="dark-background single-form" action="https://formspree.io/f/mzbkvnpq">
 
                                         <script>
-                                            function myFunction() {
-
-                                                $recaptcha = $_POST['g-recaptcha-response'];
-                                                $res = reCaptcha($recaptcha);
-                                                if(!$res['success']){
-                                                // Error
-                                                } 
-                                            }
-                                            
                                             function reCaptcha($recaptcha){
                                                 
                                                 $secret = "6Le-XCgaAAAAANmbY9H6nfp66ykAeB9gVPUzvVkf";
@@ -1547,6 +1540,13 @@ The Lighthouse Collective
                                                 return json_decode($data, true);
                                                 }
                                         </script>
+
+                                        <script>
+                                            function myFunction() {
+                                                'success!'
+                                            }
+                                        </script>
+
 <!--
                                         <div class="message col-xs-12">
                                             <p class="email-loading"><img src="images/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Sending...</p>
@@ -1611,7 +1611,16 @@ The Lighthouse Collective
                                         </div>
                                         
                                         <!--GOOGLE RECAPTCHA-->
-                                        <div class="g-recaptcha brochure__form__captcha" data-sitekey="6Le-XCgaAAAAAFHl6kAQH_N14iZktl5IDsDdxEkw"></div>
+                                        <div class="g-recaptcha" data-sitekey="6Le-XCgaAAAAAFHl6kAQH_N14iZktl5IDsDdxEkw"></div>
+                                        <br/>
+                                        <script>
+                                        $recaptcha = $_POST['g-recaptcha-response'];
+                                            $res = reCaptcha($recaptcha);
+                                            if(!$res['success']){
+                                              // Error
+                                            }
+                                        </script>
+                                        
                                         
                                         <!-- Subject Button -->
                                         <div class="btn-form text-center col-xs-12">
@@ -1763,8 +1772,6 @@ The Lighthouse Collective
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/plagin-js/plagin.js"></script>
 
-        <!--GOOGLE RECAPTCHA-->
-        <script src="https://www.google.com/recaptcha/api.js"></script>
 
         <!-- Custom Script 
         ==========================================-->
