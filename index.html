@@ -2,7 +2,7 @@
 <!--
 index.html
 Created 06.15.20
-Updated 01.11.20
+Updated 01.09.20
 Dylan Todd
 The Lighthouse Collective
 -->
@@ -53,9 +53,6 @@ The Lighthouse Collective
             <script src="js/plagin-js/html5shiv.js"></script>
             <script src="js/plagin-js/respond.min.js"></script>
         <![endif]-->
-        
-        <!--Script for RECAPTCHA-->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
     </head>
@@ -1520,7 +1517,13 @@ The Lighthouse Collective
                             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 overflow">
                                 <div class="row single-form-outer wow">
 
-                                    <form id="contact-form" method="post" class="dark-background single-form" action="https://smartforms.dev/submit/5ffc4405b81854118fd40249">
+                                    <form id="contact-form" method="post" class="dark-background single-form" action="https://formspree.io/f/mzbkvnpq">
+
+                                        <script>
+                                            function myFunction() {
+                                              alert("Success!");
+                                            }
+                                        </script>
 <!--
                                         <div class="message col-xs-12">
                                             <p class="email-loading"><img src="images/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Sending...</p>
@@ -1554,7 +1557,7 @@ The Lighthouse Collective
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <input name="name" class="contact-company form-control" id="contact-company" type="text"  required="true">
+                                                    <input name="name" class="contact-company form-control" id="contact-company" type="text"  required="">
                                                     <label class="input-label" for="contact-company">
                                                         <span class="label-text">COMPANY</span>
                                                     </label>
@@ -1565,7 +1568,7 @@ The Lighthouse Collective
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <input name="name" class="contact-subject form-control" id="contact-subject" type="text"  required="true">
+                                                    <input name="name" class="contact-subject form-control" id="contact-subject" type="text"  required="">
                                                     <label class="input-label" for="contact-subject">
                                                         <span class="label-text">SUBJECT</span>
                                                     </label>
@@ -1576,32 +1579,20 @@ The Lighthouse Collective
                                         <div class="col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <textarea class="contact-message form-control" id="contact-message" rows="2" required="false"></textarea>
+                                                    <textarea class="contact-message form-control" id="contact-message" rows="2" required=""></textarea>
                                                     <label class="input-label" for="contact-message">
-                                                        <span style="margin-bottom: 25px;" class="label-text">MESSAGE</span>
+                                                        <span class="label-text">MESSAGE</span>
                                                     </label>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <!--Spacing recaptcha-->
-                                        <div class="col-xs-10">
-                                            <br>
-                                            <br>
+                                        
+                                        <!-- Subject Button -->
+                                        <div class="btn-form text-center col-xs-12">
+                                            <div class="button-outer relative">
+                                                <button class="btn btn-fill right-icon" onclick="myFunction()">SEND<i class="icon icon-arrow-right"></i></button>
+                                            </div>
                                         </div>
-
-                                        <!--RECAPTCHA-->
-                                        <center>
-                                            <div class="g-recaptcha" data-sitekey="6Le-XCgaAAAAAFHl6kAQH_N14iZktl5IDsDdxEkw"></div>
-                                        </center>
-
-                                        <!--Spacing recaptcha-->
-                                        <div class="col-xs-10">
-                                            <br>
-                                            <br>
-                                        </div>
-
-                                        <input type="submit" class="btn btn-fill right-icon" value="Submit">
                                     </form>
 
                                 </div> <!-- /#testimonials-1 -->
