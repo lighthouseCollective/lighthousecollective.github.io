@@ -55,7 +55,17 @@ The Lighthouse Collective
         <![endif]-->
 
         <!--GOOGLE RECAPTCHA-->
-        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+        <script>
+            $recaptcha = $_POST['g-recaptcha-response'];
+                $res = reCaptcha($recaptcha);
+                if(!$res['success']){
+                  // Error
+                }
+        </script>
+
+        
 
     </head>
     <body class="style-1">
@@ -1613,14 +1623,6 @@ The Lighthouse Collective
                                         <!--GOOGLE RECAPTCHA-->
                                         <div class="g-recaptcha" data-sitekey="6Le-XCgaAAAAAFHl6kAQH_N14iZktl5IDsDdxEkw"></div>
                                         <br/>
-                                        <script>
-                                        $recaptcha = $_POST['g-recaptcha-response'];
-                                            $res = reCaptcha($recaptcha);
-                                            if(!$res['success']){
-                                              // Error
-                                            }
-                                        </script>
-                                        
                                         
                                         <!-- Subject Button -->
                                         <div class="btn-form text-center col-xs-12">
