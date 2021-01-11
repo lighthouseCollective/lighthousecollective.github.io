@@ -1520,13 +1520,7 @@ The Lighthouse Collective
                             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 overflow">
                                 <div class="row single-form-outer wow">
 
-                                    <form id="contact-form" method="post" class="dark-background single-form" action="https://smartforms.dev/submit/5ffc4405b81854118fd40249">
-
-                                        <script>
-                                            function myFunction() {
-                                              alert("Success!"); 
-                                            }
-                                        </script>
+                                    <form id="contact-form" type="submit" method="post" class="dark-background single-form" action="https://smartforms.dev/submit/5ffc4405b81854118fd40249">
 <!--
                                         <div class="message col-xs-12">
                                             <p class="email-loading"><img src="images/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Sending...</p>
@@ -1560,7 +1554,7 @@ The Lighthouse Collective
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <input name="name" class="contact-company form-control" id="contact-company" type="text"  required="">
+                                                    <input name="name" class="contact-company form-control" id="contact-company" type="text"  required="true">
                                                     <label class="input-label" for="contact-company">
                                                         <span class="label-text">COMPANY</span>
                                                     </label>
@@ -1571,7 +1565,7 @@ The Lighthouse Collective
                                         <div class="col-sm-6 col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <input name="name" class="contact-subject form-control" id="contact-subject" type="text"  required="">
+                                                    <input name="name" class="contact-subject form-control" id="contact-subject" type="text"  required="true">
                                                     <label class="input-label" for="contact-subject">
                                                         <span class="label-text">SUBJECT</span>
                                                     </label>
@@ -1582,22 +1576,35 @@ The Lighthouse Collective
                                         <div class="col-xs-12">
                                             <div class="input-outer ">
                                                 <div class="group relative">
-                                                    <textarea class="contact-message form-control" id="contact-message" rows="3" required=""></textarea>
+                                                    <textarea class="contact-message form-control" id="contact-message" rows="2" required="false"></textarea>
                                                     <label class="input-label" for="contact-message">
-                                                        <span class="label-text">MESSAGE</span>
+                                                        <span style="margin-bottom: 25px;" class="label-text">MESSAGE</span>
                                                     </label>
                                                 </div>
                                             </div>
                                         </div>
 
+                                        <!--Spacing recaptcha-->
+                                        <div class="col-xs-10">
+                                            <br>
+                                            <br>
+                                        </div>
+
                                         <!--RECAPTCHA-->
-                                       <div class="g-recaptcha" data-sitekey="6Le-XCgaAAAAAFHl6kAQH_N14iZktl5IDsDdxEkw"></div>
-                                        <br>
-                                        
+                                        <center>
+                                            <div class="g-recaptcha" data-sitekey="6Le-XCgaAAAAAFHl6kAQH_N14iZktl5IDsDdxEkw"></div>
+                                        </center>
+
+                                        <!--Spacing recaptcha-->
+                                        <div class="col-xs-10">
+                                            <br>
+                                            <br>
+                                        </div>
+
                                         <!-- Subject Button -->
                                         <div class="btn-form text-center col-xs-12">
                                             <div class="button-outer relative">
-                                                <button type="submit" class="btn btn-fill right-icon" onclick="myFunction()">SEND<i class="icon icon-arrow-right"></i></button>
+                                                <button type="submit" class="btn btn-fill right-icon" action='submit' onClick='submit'>SEND<i class="icon icon-arrow-right"></i></button>
                                             </div>
                                         </div>
                                     </form>
