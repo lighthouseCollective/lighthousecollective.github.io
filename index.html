@@ -1521,7 +1521,6 @@ The Lighthouse Collective
 
                                         <script>
                                             function myFunction() {
-                                              alert("Success!");
 
                                                 $recaptcha = $_POST['g-recaptcha-response'];
                                                 $res = reCaptcha($recaptcha);
@@ -1529,7 +1528,8 @@ The Lighthouse Collective
                                                 // Error
                                                 } 
 
-                                                function reCaptcha($recaptcha){
+                                            function reCaptcha($recaptcha){
+                                                
                                                 $secret = "6Le-XCgaAAAAANmbY9H6nfp66ykAeB9gVPUzvVkf";
                                                 $ip = $_SERVER['REMOTE_ADDR'];
 
