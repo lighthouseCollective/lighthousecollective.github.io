@@ -2,7 +2,7 @@
 <!--
 index.html
 Created 06.15.20
-Updated 01.09.20
+Updated 01.11.20
 Dylan Todd
 The Lighthouse Collective
 -->
@@ -1522,6 +1522,29 @@ The Lighthouse Collective
                                         <script>
                                             function myFunction() {
                                               alert("Success!");
+
+                                                $recaptcha = $_POST['g-recaptcha-response'];
+                                                $res = reCaptcha($recaptcha);
+                                                if(!$res['success']){
+                                                // Error
+                                                } 
+
+                                                function reCaptcha($recaptcha){
+                                                $secret = "6Le-XCgaAAAAANmbY9H6nfp66ykAeB9gVPUzvVkf";
+                                                $ip = $_SERVER['REMOTE_ADDR'];
+
+                                                $postvars = array("secret"=>$secret, "response"=>$recaptcha, "remoteip"=>$ip);
+                                                $url = "https://www.google.com/recaptcha/api/siteverify";
+                                                $ch = curl_init();
+                                                curl_setopt($ch, CURLOPT_URL, $url);
+                                                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                                curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+                                                curl_setopt($ch, CURLOPT_POSTFIELDS, $postvars);
+                                                $data = curl_exec($ch);
+                                                curl_close($ch);
+
+                                                return json_decode($data, true);
+                                                }
                                             }
                                         </script>
 <!--
@@ -1586,6 +1609,9 @@ The Lighthouse Collective
                                                 </div>
                                             </div>
                                         </div>
+                                        
+                                        <!--GOOGLE RECAPTCHA-->
+                                        <div class="g-recaptcha brochure__form__captcha" data-sitekey="6Le-XCgaAAAAAFHl6kAQH_N14iZktl5IDsDdxEkw"></div>
                                         
                                         <!-- Subject Button -->
                                         <div class="btn-form text-center col-xs-12">
@@ -1728,9 +1754,7 @@ The Lighthouse Collective
             - CONTACT US PAGE
         ====================================-->
 
-
-
-
+    
         
         <!-- SCRIPTS 
         ========================================-->
@@ -1738,6 +1762,9 @@ The Lighthouse Collective
         <script src="js/plagin-js/preloader.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/plagin-js/plagin.js"></script>
+
+        <!--GOOGLE RECAPTCHA-->
+        <script src="https://www.google.com/recaptcha/api.js"></script>
 
         <!-- Custom Script 
         ==========================================-->
