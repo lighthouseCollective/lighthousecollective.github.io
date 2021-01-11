@@ -55,17 +55,8 @@ The Lighthouse Collective
         <![endif]-->
 
         <!--GOOGLE RECAPTCHA-->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-        <script>
-            $recaptcha = $_POST['g-recaptcha-response'];
-                $res = reCaptcha($recaptcha);
-                if(!$res['success']){
-                  // Error
-                }
-        </script>
-
-        
+        <!--Javascript API-->
+        <script src="https://www.google.com/recaptcha/api.js"></script>
 
     </head>
     <body class="style-1">
@@ -1531,32 +1522,6 @@ The Lighthouse Collective
 
                                     <form id="contact-form" method="post" class="dark-background single-form" action="https://formspree.io/f/mzbkvnpq">
 
-                                        <script>
-                                            function reCaptcha($recaptcha){
-                                                
-                                                $secret = "6Le-XCgaAAAAANmbY9H6nfp66ykAeB9gVPUzvVkf";
-                                                $ip = $_SERVER['REMOTE_ADDR'];
-
-                                                $postvars = array("secret"=>$secret, "response"=>$recaptcha, "remoteip"=>$ip);
-                                                $url = "https://www.google.com/recaptcha/api/siteverify";
-                                                $ch = curl_init();
-                                                curl_setopt($ch, CURLOPT_URL, $url);
-                                                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                                                curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-                                                curl_setopt($ch, CURLOPT_POSTFIELDS, $postvars);
-                                                $data = curl_exec($ch);
-                                                curl_close($ch);
-
-                                                return json_decode($data, true);
-                                                }
-                                        </script>
-
-                                        <script>
-                                            function myFunction() {
-                                                'success!'
-                                            }
-                                        </script>
-
 <!--
                                         <div class="message col-xs-12">
                                             <p class="email-loading"><img src="images/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Sending...</p>
@@ -1620,14 +1585,10 @@ The Lighthouse Collective
                                             </div>
                                         </div>
                                         
-                                        <!--GOOGLE RECAPTCHA-->
-                                        <div class="g-recaptcha" data-sitekey="6Le-XCgaAAAAAFHl6kAQH_N14iZktl5IDsDdxEkw"></div>
-                                        <br/>
-                                        
                                         <!-- Subject Button -->
                                         <div class="btn-form text-center col-xs-12">
                                             <div class="button-outer relative">
-                                                <button class="btn btn-fill right-icon" onclick="myFunction()">SEND<i class="icon icon-arrow-right"></i></button>
+                                                <button class="btn btn-fill right-icon g-recaptcha" data-sitekey="6LeUaygaAAAAAL9L5J98irC-C0Q7H3Pe5U9yEkUB" data-callback="onSubmit" data-action='submit'>SEND<i class="icon icon-arrow-right"></i></button>
                                             </div>
                                         </div>
                                     </form>
