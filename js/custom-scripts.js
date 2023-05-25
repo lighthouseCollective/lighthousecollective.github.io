@@ -1,3 +1,8 @@
+// Workaround for the jQuery XSS vulnerability
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
+
 (function($) {
     
   'use strict';
